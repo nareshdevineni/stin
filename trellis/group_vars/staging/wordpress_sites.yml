@@ -5,7 +5,7 @@
 wordpress_sites:
   stridein.com:
     site_hosts:
-      - canonical: 206.189.169.232
+      - canonical: 206.189.170.219
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
