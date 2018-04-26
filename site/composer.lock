@@ -332,7 +332,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:nareshdevineni/stride-in.git",
-                "reference": "5cee714b6889a6578b5fa52b3673b42b461861ce"
+                "reference": "e0204a7f7841d14155d537c4e1c6d833e51f822f"
             },
             "require": {
                 "php": ">=5.3.2"
@@ -353,7 +353,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-04-26T08:55:55+00:00"
+            "time": "2018-04-26T10:20:42+00:00"
         },
         {
             "name": "nareshdevineni/stridein-custom-functionality",
