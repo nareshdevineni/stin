@@ -7,4 +7,5 @@ vault_wordpress_sites:
   stridein.com:
     admin_password: pG8b+J8;~_.*!8e
     env:
+      acf_pro_key: b3JkZXJfaWQ9MTA5ODUxfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxNy0wNy0wNiAxMzoyNjoyMg==
       db_password: B0.184*9%43ac4L

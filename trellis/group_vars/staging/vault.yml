@@ -12,6 +12,7 @@ vault_users:
 vault_wordpress_sites:
   stridein.com:
     env:
+      acf_pro_key: b3JkZXJfaWQ9MTA5ODUxfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxNy0wNy0wNiAxMzoyNjoyMg==
       db_password: "Pc175vq9h0cpTNJ"
       # Generate your keys here: https://roots.io/salts.html
       auth_key: "D:WIcfuUC)Jvgx_Z>Gn.[QW`>vJ`NCt5eh/QLqr[NPl:%K_N^40e{Oie{hH1KWfQ"

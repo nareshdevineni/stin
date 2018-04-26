@@ -24,8 +24,7 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist",
-    "ACF_PRO_KEY":"b3JkZXJfaWQ9MTA5ODUxfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxNy0wNy0wNiAxMzoyNjoyMg=="
+    "preferred-install": "dist"
   },
   "repositories": [
     {
