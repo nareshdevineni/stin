@@ -4,8 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d26750dd36f746b9954f3e2e4e202e8",
+    "content-hash": "7d5e114dbe81a2e4cf4affe1d4fe6f0b",
     "packages": [
+        {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.6.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.10",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "philippbaschke/acf-pro-installer": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "composer/installers",
             "version": "v1.5.0",
@@ -125,6 +140,34 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
+            "version": "1.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=1.8.1&composer_key=B13CC4F4BDD8102B4EC16018485D2380",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-media-files",
+            "version": "1.4.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-media-files&version=1.4.9&composer_key=B13CC4F4BDD8102B4EC16018485D2380",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -255,12 +298,12 @@
             "time": "2018-01-29T14:49:29+00:00"
         },
         {
-            "name": "nareshdevineni/wp-migrate-db-pro",
+            "name": "nareshdevineni/gravityforms",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:nareshdevineni/wp-migrate-db-pro.git",
-                "reference": "f3aabd077d1421947c5be406f4fd3d54a474a061"
+                "url": "git@bitbucket.org:nareshdevineni/gravityforms.git",
+                "reference": "64ef8439d98436c97617a4a1f8153a82570666b6"
             },
             "require": {
                 "php": ">=5.3.2"
@@ -271,17 +314,75 @@
             ],
             "authors": [
                 {
-                    "name": "Delicious Brains",
+                    "name": "Naresh Devineni",
                     "email": "nareshdevineni@hotmail.com",
                     "homepage": ""
                 }
             ],
-            "homepage": "https://bitbucket.org/nareshdevineni/wp-migrate-db-pro",
+            "homepage": "https://bitbucket.org/nareshdevineni/gravityforms",
             "keywords": [
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-04-25T18:22:59+00:00"
+            "time": "2018-04-26T05:36:04+00:00"
+        },
+        {
+            "name": "nareshdevineni/stridein",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:nareshdevineni/stride-in.git",
+                "reference": "577d1f49dce557348277c5aea0777b9261b768e3"
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naresh Devineni",
+                    "email": "nareshdevineni@hotmail.com",
+                    "homepage": ""
+                }
+            ],
+            "homepage": "https://bitbucket.org/nareshdevineni/stride-in",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "time": "2018-04-26T05:17:44+00:00"
+        },
+        {
+            "name": "nareshdevineni/stridein-custom-functionality",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:nareshdevineni/stridein-custom-functionality.git",
+                "reference": "8aa3ca220821ace851fec56363c8428a607a8786"
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naresh Devineni",
+                    "email": "nareshdevineni@hotmail.com",
+                    "homepage": ""
+                }
+            ],
+            "homepage": "https://bitbucket.org/nareshdevineni/stridein-custom-functionality",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2018-04-26T05:39:02+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -324,6 +425,62 @@
                 "env"
             ],
             "time": "2017-07-17T20:41:59+00:00"
+        },
+        {
+            "name": "philippbaschke/acf-pro-installer",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhilippBaschke/acf-pro-installer.git",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhilippBaschke/acf-pro-installer/zipball/f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.5",
+                "vlucas/phpdotenv": "^2.2"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*",
+                "phpunit/phpunit": "4.8.*",
+                "satooshi/php-coveralls": "1.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PhilippBaschke\\ACFProInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhilippBaschke\\ACFProInstaller\\": "src/ACFProInstaller"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Baschke",
+                    "email": "philipp@baschke.com"
+                }
+            ],
+            "description": "An install helper for Advanced Custom Fields PRO",
+            "keywords": [
+                "acf",
+                "composer",
+                "env",
+                "plugin",
+                "pro",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2016-07-20T10:19:36+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -431,6 +588,46 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/social-pug",
+            "version": "1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/social-pug/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-pug.zip?timestamp=1521829296",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/social-pug/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-pagenavi",
+            "version": "2.92",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-pagenavi/",
+                "reference": "tags/2.92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.92.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-pagenavi/"
         }
     ],
     "packages-dev": [
@@ -489,7 +686,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "nareshdevineni/wp-migrate-db-pro": 20
+        "nareshdevineni/stridein": 20,
+        "nareshdevineni/gravityforms": 20,
+        "nareshdevineni/stridein-custom-functionality": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

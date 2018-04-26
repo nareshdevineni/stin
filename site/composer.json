@@ -32,8 +32,36 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "vcs",
-      "url": "git@bitbucket.org:nareshdevineni/wp-migrate-db-pro.git"
+      "type":"composer",
+      "url":"https://composer.deliciousbrains.com/B13CC4F4BDD8102B4EC16018485D2380"
+    },
+    {
+      "type":"vcs",
+      "url":"git@bitbucket.org:nareshdevineni/stride-in.git"
+    },
+    {
+      "type":"vcs",
+      "url":"git@bitbucket.org:nareshdevineni/gravityforms.git"
+    },
+    {
+      "type":"vcs",
+      "url":"git@bitbucket.org:nareshdevineni/stridein-custom-functionality.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.6.10",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -42,8 +70,15 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.5",
     "oscarotero/env": "^1.1.0",
+    "wpackagist-plugin/wp-pagenavi": "2.92",
+    "wpackagist-plugin/social-pug": "1.4.3",
     "roots/wp-password-bcrypt": "1.0.0",
-    "nareshdevineni/wp-migrate-db-pro": "dev-master"
+    "nareshdevineni/stridein": "dev-master",
+    "nareshdevineni/gravityforms":"dev-master",
+    "nareshdevineni/stridein-custom-functionality": "dev-master",
+    "deliciousbrains-plugin/wp-migrate-db-pro": "^1.8",
+    "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "^1.4",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
